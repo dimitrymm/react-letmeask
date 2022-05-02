@@ -7,6 +7,12 @@ import '../styles/button.scss';
 import { Button } from '../components/Button';
 
 
+/**
+ * It's a function that returns a div with an aside, main, and form elements
+ * 
+ * Returns:
+ *   A React component.
+ */
 export function NewRoom() {
   return (
     <div id="page-auth">
